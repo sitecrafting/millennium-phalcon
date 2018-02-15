@@ -1,4 +1,4 @@
-FROM devwithlando/php:7.0-apache
+FROM devwithlando/php:7.1-apache
 
 LABEL maintainer="Coby Tamayo <ctamayo@sitecrafting.com>" license="MIT"
 
