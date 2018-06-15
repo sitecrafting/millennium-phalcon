@@ -17,7 +17,7 @@ services:
     type: php:custom
     overrides:
       services:
-        image: sitecrafting/millenium-phalcon
+        image: sitecrafting/millennium-phalcon
 ```
 
 Millennium Phalcon _should_ be generic enough to work as a drop-in replacement for any Apache-based PHP service. There aren't any non-Apache images at the moment but, theoretically, all you need to do is to build a new image with the desired `FROM` directive in the `Dockerfile`.
